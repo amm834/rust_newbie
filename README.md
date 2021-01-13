@@ -3,6 +3,6 @@ Rust Topics that I'm Learning Now.
 
 # Run
 
-```sh
+```bash
 cargo run
 ```
