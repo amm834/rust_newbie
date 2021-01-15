@@ -2,7 +2,8 @@
 //mod vars;
 //mod types;
 //mod strings;
-mod tuples;
+//mod tuples;
+mod array;
 fn main() {
-    tuples::run();
+    array::run();
 }
