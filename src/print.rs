@@ -1,33 +1,41 @@
-pub fn run(){
+pub fn run() {
+    // Print Line
+    println!("I' newbie in Rust.");
 
-// Print Line
-println!("I' newbie in Rust.");
+    // Basic Formatting
+    println!("{}", 1); // String literal {} need
 
-// Basic Formatting 
-println!("{}",1); // String literal {} need
+    // Arguments
 
-// Arguments
+    println!("{} is a student.", "Aung Myat Moe");
 
-println!("{} is a student.","Aung Myat Moe");
+    // Arguments Passing
+    println!("{} is a {}.", "Aung Myat Moe", "Web Dev");
 
-// Arguments Passing
-println!("{} is a {}.","Aung Myat Moe","Web Dev");
+    //Posistional Arguments
+    println!(
+        "{0} is a {1} and {0} love {2}.",
+        "Aung Myat Moe", "Web Dev", "Programming and Physics"
+    );
 
-//Posistional Arguments
-println!("{0} is a {1} and {0} love {2}.","Aung Myat Moe","Web Dev","Programming and Physics");
+    // Mamed arguments
+    println!(
+        "My name is {name} and age is {age}.",
+        name = "Aung Myat Moe",
+        age = 17
+    );
 
-// Mamed arguments
-println!("My name is {name} and age is {age}.",name="Aung Myat Moe",age=17);
+    // Tuple or Place Holder Trait
+    println!(
+        "Binary Type : {:b} , Hex Type : {:x} , Ocatal Type : {:o} .",
+        10, 10, 10
+    );
 
-// Tuple or Place Holder Trait
-println!("Binary Type : {:b} , Hex Type : {:x} , Ocatal Type : {:o} .",10,10,10);
+    // Debug
 
-// Debug
+    println!("{:?}", (1, "Hello World!", true));
 
-println!("{:?}",(1,"Hello World!",true));
+    //Basic Math
 
-//Basic Math
-
-println!("10 + 10 = {}",10+10);
-
+    println!("10 + 10 = {}", 10 + 10);
 }
