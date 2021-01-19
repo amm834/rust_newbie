@@ -5,7 +5,8 @@
 //mod tuples;
 //mod array;
 //mod vectors;
-mod conditionals;
+//mod conditionals;
+mod ownership;
 fn main() {
-    conditionals::run();
+    ownership::run();
 }
