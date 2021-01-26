@@ -6,7 +6,8 @@
 //mod array;
 //mod vectors;
 //mod conditionals;
-mod ownership;
+//mod ownership;
+mod cli;
 fn main() {
-    ownership::run();
+    cli::run();
 }
